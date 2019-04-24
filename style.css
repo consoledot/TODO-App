@@ -1,0 +1,61 @@
+.container {
+    margin: 60px auto;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 5px 3px 5px grey;
+}
+
+input[type='text'] {
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+button {
+    border: none;
+    height: 30px;
+    width: 50px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: color 0.3s ease;
+
+}
+
+button:hover {
+    color: white;
+}
+
+#list {
+    padding-left: 10px;
+    text-align: left;
+}
+
+#list p:first-child {
+    margin-top: 30px;
+}
+
+#list p {
+    margin-top: 5px;
+    height: 20px;
+    border-left: 3px solid slategray;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-transform: capitalize;
+
+}
+
+#list p span {
+    float: right;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#list p span:hover {
+    transform: scale(1.6)
+}
